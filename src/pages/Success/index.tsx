@@ -31,7 +31,7 @@ export function Success() {
                 </strong>
               </span>
               <span>
-                {state.district} - {state.city}, {state.state}
+                {state.district} - {state.city}, {state.uf}
               </span>
             </div>
           </CardOrder>
