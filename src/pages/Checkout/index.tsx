@@ -30,7 +30,7 @@ const newAddressFormValidateSchema = zod.object({
   }),
 })
 
-type NewAddressFormDate = zod.infer<typeof newAddressFormValidateSchema>
+export type NewAddressFormDate = zod.infer<typeof newAddressFormValidateSchema>
 
 export function Checkout() {
   const { cleanCart } = useContext(CartContext)
